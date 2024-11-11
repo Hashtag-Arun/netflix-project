@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.img {
+    width: 100px;
+    height: auto;
+}
+
+/* Right-side elements: language dropdown and sign-in button */
+.box2 {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between dropdown and button */
+    text-align: right;
+}
+
+#mylang, .mycountries {
+    background-color: #333;
+    color: white;
+    font-weight: 200;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between text and icon */
+}
+
+.mmain {
+    color: white;
+    background-color: #e50914; /* Netflix red for Sign-in button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Main content container */
+.main {
+    color: white;
+    height: 605.333px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/61b94313-a53b-4a73-b973-7632aafc9d8f/web_tall_panel/IN-en-20241104-TRIFECTA-perspective_5e478a9d-0baf-4a93-8987-7a8ebf6f7fe8_large.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+.main1 {
+    color: grey;
+    margin-top: 10px;
+}
+
+/* Email input */
+#email {
+    background-color: grey;
+    width: 300px;
+}
+
+.getstarted {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Custom styles for trending section */
+h3 {
+    color: white;
+}
+
+.mycountries {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+}
+
+.mycountries::after {
+    content: "▼";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
+/* Container for boxes */
+..main-content {
+    color: white;
+    height: 605px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/61b94313-a53b-4a73-b973-7632aafc9d8f/web_tall_panel/IN-en-20241104-TRIFECTA-perspective_5e478a9d-0baf-4a93-8987-7a8ebf6f7fe8_large.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+/* Subheading styling */
+.main-content .subheading {
+    color: grey;
+    margin-top: 10px;
+}
+
+/* Email input styling */
+#email {
+    background-color: grey;
+    width: 300px;
+}
+
+/* Get Started button */
+.get-started {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Trending section heading */
+h3 {
+    color: white;
+}
+
+/* Country dropdown styling */
+.my-countries {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+}
+
+.my-countries::after {
+    content: "▼";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
+/* Box container styling */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* Individual box styling with images */
+.box {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Box 1 */
+.box1 {
+    background-image: url("https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABavcGxMWfANgaB24WJs4YYckxfAGskkC6k6WqMpmn7CL_Vbkh2artYx6Jdfsa2zOBRmcLscpVCOyb-s2lG7Pvfk2W80xXevpAbp4Kxt6_ymFfmfwXXDUFZRL6eLKWFPxg4U9JQjEA9mi5uAyLp2GtyJUn3GPp6AA0fC17tNkBvRYWJPiYIB9FveOjygrko7vYRub0n91PAkgItwJ.webp?r=828");
+}
+
+/* Box 2 */
+.box2 {
+    background-image: url("https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABdypMh2P2LBGAxWVcPrAwYN96fTVUBE7zB1uGTfZcmoh_MCGRM6PR0C47vaEXAlUnw8yHdC2j2Mn-M71q8qRIq-vwscBV7N3i_TkbwbbvjkSfDjLdZ6Rauf1hWOOqbUDCM9IQI5DcyNXA9ivioL68jpn67OH0sNNB1Bb3_-LmQ.webp?r=249");
+}
+
+/* Box 3 */
+.box3 {
+    background-image: url("https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABZdzhcYTghn_KxCmwKpj5WIhcLT12fYLNrh3nnsvOljUq9a7QVlgpOoE4ABDO0gjqcUrQEeaiqLayKwYCnsfSMxP8B6uAi8-2VWaC4QBddpp83NA7Th7fggPfA_EhM-wMeF3BggGTPqlGq2Fj6tX.webp?r=cfb");
+}
+
+/* Box 4 */
+.box4 {
+    background-image: url("https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABVEpzFLYiLqbYHzghAoFSRhdakpGIA1LHNJf0L4P_1P6evzNH6ft7WBr01deWTSRqliYgzWpyFEpjOSPOOBTa__95jkABFd8z6B5dpC2F9MLHOwMk1fRI5IpEw4aGXLTMxx9rIc8COR7bE4346a82M1P4N6Szntc3lkXfqMPmgYVzzh1_N5W_DgS_dwQ_sL5xU507pKfweNVsKd7.webp?r=a25");
+}
+
+/* Box 5 */
+.box5 {
+    background-image: url("https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABXXIuaaYAoRoNAECQ32xbdyM0LfTO6njyWqBg6nZlw67v7-vCW3C9LkeA-4zKjnIramW6jswfh70zzDvOVpCbEoL5NCkxsmbtTmIr3pfDNdEKXkBB0fl-WYNRF4QEytVCzmYK6Uje8q3eMPRxPJrBjItT-dMPgW8h37cZD5Umw.webp?r=a05");
+}
+
+/* List styling */
+.faq-section {
+    background-color: #222; /* Dark background for the FAQ section */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.faq-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.faq-section .list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.faq-section .list li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.faq-section .list li a {
+    color: #1db954; /* Netflix green color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s;
+}
+
+.faq-section .list li a:hover {
+    color: #fff; /* Change color on hover */
+}
+
+.faq-section button {
+    background-color: #e50914; /* Netflix red color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-section button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}
+
+/* Button styling */
+button {
+    background-color: red;
+    display: block;
+    margin: 0 auto;
+}
+.footer {
+    padding: 20px;
+    background-color: #141414;
+    text-align: center;
+}
+
+.footer-question {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer-question a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.language-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-country {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
